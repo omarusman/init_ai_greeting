@@ -62,7 +62,7 @@ exports.handle = function handle(client) {
       greeting: handleGreeting,
       main: 'onboarding',
       onboarding: [sayHello],
-      end: [untrained]
+      end: [untrained] 
     }
   })
 }
